@@ -12,11 +12,11 @@ Changes in password strength must take place in real time.
 
 **How to calculate the strength of a password:**
 
-- only letters/digits/symbols - the password is _easy_
+- only **letters/digits/symbols** - the password is _easy_
 
-- combination of letters-symbols/letters-digits/digits-symbols - the password is _medium_.
+- combination of **letters-symbols/letters-digits/digits-symbols** - the password is _medium_.
 
-- has letters, symbols and numbers - the password is _strong_.
+- has **letters, symbols and numbers** - the password is _strong_.
 
 **The color of the sections will depend on the strength of the password:**
 
