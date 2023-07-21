@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: no-repeat linear-gradient(#c7caca, #eef1f1);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 120px;
+  font-size: 3rem;
+}
+
+input[type="password"] {
+  width: 40%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.6rem;
+}
+
+.sections {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.sections > * {
+  width: 200px;
+  height: 80px;
+  margin: 50px;
+  background-color: #afb3b3;
+}
+
+#section-1 {
+  transition: background-color 1s ease;
+}
+
+#section-2 {
+  transition: background-color 1.5s ease;
+}
+
+#section-3 {
+  transition: background-color 2s ease;
+}
