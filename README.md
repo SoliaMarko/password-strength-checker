@@ -4,11 +4,13 @@
 
 Create application to test password strength.
 
+
 **The essence of the assignment:**
 
 Create a field for entering a password, under the field add 3 sections which will show the strength of the password.
 
 Changes in password strength must take place in real time.
+
 
 **How to calculate the strength of a password:**
 
@@ -17,6 +19,7 @@ Changes in password strength must take place in real time.
 - combination of **letters-symbols/letters-digits/digits-symbols** - the password is _medium_.
 
 - has **letters, symbols and numbers** - the password is _strong_.
+
 
 **The color of the sections will depend on the strength of the password:**
 
